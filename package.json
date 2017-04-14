@@ -1,10 +1,10 @@
 {
   "name": "url_shortener",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Han Jung",
   "license": "ISC",
@@ -13,5 +13,14 @@
     "cors": "^2.8.3",
     "express": "^4.15.2",
     "mongoose": "^4.9.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsjungcr/url_Shortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hsjungcr/url_Shortener/issues"
+  },
+  "homepage": "https://github.com/hsjungcr/url_Shortener#readme",
+  "description": ""
 }
